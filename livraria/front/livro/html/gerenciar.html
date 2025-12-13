@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Biblioteca CEFET-RJ</title>
-  <link rel="stylesheet" href="../css/estilo.css">
-  <script src="../js/usuario/buscar.js" defer></script>
+  <link rel="stylesheet" href="../../css/estilo.css">
+  <script src="../js/gerenciar.js" defer></script>
 </head>
 
 <body>
@@ -14,16 +14,15 @@
 
     <section class="acoes">
       <h2>Gerenciamento</h2>
-      <input type="text" id="busca" placeholder="Buscar por nome ou e-mail">
-      <button id="consultarUsuarios">Consultar</button>
-      <button id="listarUsuarios">Listar Todos</button>
+      <input type="text" id="busca" placeholder="Buscar por título, autor ou gênero">
+      <button id="consultarLivros">Consultar</button>
+      <button id="listarLivros">Listar Todos</button>
     </section>
 
     <section id="areaBusca">
       <h3>Resultado da Busca</h3>
       <div id="saidaBusca" class="resultado"></div>
     </section>
-
   </div>
 </body>
 

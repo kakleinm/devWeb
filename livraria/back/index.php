@@ -5,7 +5,7 @@
   $metodo = $_SERVER['REQUEST_METHOD'];
   $modulo = @$_GET['modulo'];
   $controller = null;
-  $mysqli = new mysqli("localhost", "root", "", "bibliotecabd");
+  $mysqli = new mysqli("localhost", "root", "", "biblioteca");
   // localhost/index.php?modulo=livro
   switch($modulo) {
     case "usuario":

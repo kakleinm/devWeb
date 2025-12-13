@@ -33,3 +33,10 @@ INSERT INTO livro (ISSN, titulo, autor, editora, anoPublicacao, genero, localiza
 ('1018', 'A Hora da Estrela', 'Clarice Lispector', 'Rocco', 1977, 'Ficção', '4-C', "Sim"),
 ('1019', 'O Primo Basílio', 'Eça de Queirós', 'Martin Claret', 1878, 'Realismo', '4-D', "Sim"),
 ('1020', 'Os Maias', 'Eça de Queirós', 'Globo', 1888, 'Realismo', '4-E', "Sim");
+
+create table usuarios (
+  id bigint primary key auto_increment not null,
+  nome varchar(60),
+  email varchar(60),
+  senha varchar(60)
+);
